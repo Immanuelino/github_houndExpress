@@ -1,0 +1,59 @@
+/* GuideList.css */
+
+/* Center the guide list container */
+.guide-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+}
+
+/* Style for each guide item */
+.guide-item {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 750px;
+}
+
+.guide-item h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.guide-item p {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Button to update status */
+button.status-btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button.status-btn.pendiente {
+  background-color: #ffc107;
+}
+
+button.status-btn.en_transito {
+  background-color: #28a745;
+}
+
+button.status-btn.entregado {
+  background-color: #dc3545;
+}
+
+button.status-btn:hover {
+  opacity: 0.8;
+}
